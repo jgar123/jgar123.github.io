@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'EB Garamond', serif;
+  background-color: whitesmoke;
+}
+
+#nav-styling {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  a:hover {
+    color: #4a4a4a;
+    background-color: transparent;
+    border-bottom: 3px solid #4a4a4a;
+  }
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+}
+
+.subtitle {
+  font-family: 'Oswald', sans-serif;
+}
+
+#home-title {
+  .title {
+    margin-bottom: 3px;
+    display: block;
+  } 
+  .subinfo {
+    font: medium 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+    background-clip: text;
+    animation: aitf 80s linear infinite;
+    transform: translate3d(0,0,0);
+    backface-visibility: hidden;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+  }
+  #sub-style {
+    font-family: 'Oswald', sans-serif;
+  }
+}
+
+#about {
+  .icon {
+    margin: 5px;
+    .skills-icon {
+      font-size: 3rem;
+      color: #4a4a4a;
+    }
+    .skills-icon:hover {
+      color: white;
+      text-shadow:  2px 2px #4a4a4a;
+      transform: scale(1.1);
+      transition: all .1s ease
+    }
+  }
+}
+
+@keyframes aitf {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+  }
+
+@-webkit-keyframes aitf {
+0% { background-position: 0% 50%; }
+100% { background-position: 100% 50%; }
+}

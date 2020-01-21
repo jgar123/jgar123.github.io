@@ -1,12 +1,21 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import 'bulma'
 import './style.scss'
 
+import Navbar from './components/Navbar'
+import Home from './components/Home'
+import About from './components/About'
+import Projects from './components/Projects'
+
 const App = () => (
-  <h1>Hello world</h1>
+  <div>
+    <Navbar />
+    <Home />
+    <About />
+    <Projects />
+  </div>
 )
 
 ReactDOM.render(
