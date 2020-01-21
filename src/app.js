@@ -9,14 +9,14 @@ import Home from './components/Home'
 import About from './components/About'
 import Projects from './components/Projects'
 
-const App = () => (
-  <div>
+const App = () => {
+  return <div>
     <Navbar />
     <Home />
     <About />
     <Projects />
   </div>
-)
+}
 
 ReactDOM.render(
   <App />,

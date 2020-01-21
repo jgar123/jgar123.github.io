@@ -1,7 +1,6 @@
 import React from 'react'
 
 const About = () => {
-  console.log(`About height: ${window.document.documentElement.scrollHeight}`)
   return <section className="section" id="about">
     <div className="container has-text-centered">
       <p className="title">About</p>
