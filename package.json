@@ -5,7 +5,9 @@
   "repository": "https://github.com/jgar123/jgar123.github.io.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "webpack-dev-server --mode=development"
+    "serve": "webpack-dev-server --mode=development",
+    "build": "webpack -p",
+    "deploy": "yarn build && gh-pages -d dist"
   },
   "author": "Jonny Garius <gariusjonathan@hotmail.co.uk>",
   "license": "MIT",
