@@ -54,6 +54,62 @@ html, body {
   }
 }
 
+// Projects page
+
+#projects {
+  .project-child {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    img {
+      border: 3px solid white;
+      width: 50%;
+      margin-right: 5%;
+    }
+    .project-child-description {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      .subtitle {
+        margin-bottom: 10px;
+      }
+      .hozline {
+        width: 50%;
+        border: 1px solid white;
+        margin-bottom: 10px;
+      }
+      .project-child-skill {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        .skills-icon {
+          font-size: 2rem;
+          color: white;
+        }
+        .skills-icon:hover {
+          color: dodgerblue;
+          transform: scale(1.1);
+          transition: all .1s ease;
+        }
+        .project-link-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          height: 100%;
+          svg:hover {
+            color: dodgerblue;
+            transform: scale(1.1);
+            transition: all .1s ease;
+          }
+        }
+      }
+    }
+  }
+}
+
 @keyframes aitf {
   0% { background-position: 0% 50%; }
   100% { background-position: 100% 50%; }
@@ -67,5 +123,16 @@ html, body {
 @media only screen and (max-width: 768px) {
   #nav-styling {
     display: none;
+  }
+
+  #projects {
+    .project-child {
+      flex-direction: column-reverse;
+
+      img {
+        border: 3px solid white;
+        width: 100%;
+      }
+    }
   }
 }
