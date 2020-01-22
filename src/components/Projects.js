@@ -16,7 +16,7 @@ const Projects = () => {
         <div className="project-child-description">
           <p className="subtitle">Placeholder</p>
           <div className="hozline"></div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem praesentium dignissimos earum nisi provident facilis. Eligendi eius aut dicta odit exercitationem architecto optio, a vero quaerat ipsam saepe! Consequatur, aliquid?</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem praesentium dignissimos earum nisi provident facilis. Eligendi eius aut dicta odit exercitationem architecto optio, a vero quaerat ipsam saepe! Consequatur, aliquid? Test</p>
           <div className="project-child-skill">
             <div className="github-container">
               <div className="icon is-large">
