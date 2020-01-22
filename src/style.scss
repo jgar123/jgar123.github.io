@@ -8,58 +8,32 @@ html {
 
 html, body {
   height: 100%;
-  font-family: 'EB Garamond', serif;
-  background-color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #0a0a0a;
+  color: white;
 }
 
 .title {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
 }
 
 .subtitle {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
 }
 
 // Navbar
 
 #nav-styling {
-  background-color: #363636;
+  background-color: #0a0a0a;
   display: flex;
   justify-content: center;
   a {
     color: white;
   }
   a:hover {
-    color: #363636;
-  }
-}
-
-// Home page
-
-#home-title {
-  .title {
-    margin-bottom: 3px;
-    display: block;
-  } 
-  .subinfo {
-    font: medium 4em/1 "Oswald", sans-serif;
-    letter-spacing: 0;
-    padding: .25em 0 .325em;
-    display: block;
-    margin: 0 auto;
-    background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
-    background-clip: text;
-    animation: aitf 80s linear infinite;
-    transform: translate3d(0,0,0);
-    backface-visibility: hidden;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: aitf 80s linear infinite;
-    -webkit-transform: translate3d(0,0,0);
-    -webkit-backface-visibility: hidden;
-  }
-  #sub-style {
-    font-family: 'Oswald', sans-serif;
+    border-bottom: 3px solid white;
   }
 }
 
@@ -70,24 +44,15 @@ html, body {
     margin: 5px;
     .skills-icon {
       font-size: 3rem;
-      color: #363636;
+      color: white;
     }
     .skills-icon:hover {
-      color: white;
-      text-shadow:  2px 2px #363636;
+      color: yellow;
       transform: scale(1.1);
       transition: all .1s ease
     }
   }
 }
-
-// Projects page
-
-#projects {
-
-}
-
-
 
 @keyframes aitf {
   0% { background-position: 0% 50%; }
@@ -97,4 +62,10 @@ html, body {
 @-webkit-keyframes aitf {
 0% { background-position: 0% 50%; }
 100% { background-position: 100% 50%; }
+}
+
+@media only screen and (max-width: 768px) {
+  #nav-styling {
+    display: none;
+  }
 }
