@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Navbar = () => {
-  return <nav className="navbar is-fixed-top is-transparent" id="nav-styling">    
+  return <nav className="navbar is-fixed-top" id="nav-styling">    
     <a href="#home" className="navbar-item">
       <span className="icon">
         <i className="fas fa-home"></i>

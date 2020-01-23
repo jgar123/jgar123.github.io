@@ -8,8 +8,8 @@ const About = () => {
         <div className="column has-text-left" id="separate">Hi! My name is Jonny and I'm a London based Software Engineer. Having previously worked as a tech recruiter and statistician, I gained a peek into coding and the industry opportunities software engineering could provide. Having previous experience in coding with R at the ONS I decided to pursue a career in Software Engineering. Graduating from General Assembly in Software Engineering, I’ve enjoyed every moment and have discovered a true hunger and passion for the discipline. Building games, CRUD apps and API’s using both React and Python. Whether it be building features from scratch or optimising, I am highly motivated to step into the developer world and make a difference!</div>
         <div className="column has-text-centered">
           <p className="subtitle">Skills</p>
-          <div className="columns">
-            <div className="column">
+          <div className="columns is-centered">
+            <div className="column is-two-thirds">
               <div className="icon is-large">
                 <i className=" skills-icon devicon-javascript-plain"></i>
               </div>
