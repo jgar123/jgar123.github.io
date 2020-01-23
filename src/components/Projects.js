@@ -19,16 +19,20 @@ const Projects = () => {
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem praesentium dignissimos earum nisi provident facilis. Eligendi eius aut dicta odit exercitationem architecto optio, a vero quaerat ipsam saepe! Consequatur, aliquid? Test</p>
           <div className="project-child-skill">
             <div className="github-container">
-              <div className="icon is-large">
-                <i className="skills-icon devicon-github-plain"></i>
-              </div>
-              <p className="is-size-7">github repo</p>
+              <a href="" target="_blank">
+                <div className="icon is-large">
+                  <i className="skills-icon devicon-github-plain"></i>
+                </div>
+                <p className="is-size-7">github repo</p>
+              </a>
             </div>
             <div className="project-link-container">
-              <div className="icon is-large">
-                <i className="fas fa-external-link-alt fa-lg"></i>
-              </div>
-              <p className="is-size-7">go to project</p>
+              <a href="" target="_blank">
+                <div className="icon is-large">
+                  <i className="fas fa-external-link-alt fa-lg"></i>
+                </div>
+                <p className="is-size-7">go to project</p>
+              </a>
             </div>
           </div>
         </div>

@@ -88,22 +88,37 @@ html, body {
           font-size: 2rem;
           color: white;
         }
-        .skills-icon:hover {
-          color: dodgerblue;
-          transform: scale(1.1);
-          transition: all .1s ease;
-        }
         .project-link-container {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-around;
-          align-items: center;
-          height: 100%;
-          svg:hover {
-            color: dodgerblue;
-            transform: scale(1.1);
-            transition: all .1s ease;
+          a {
+            color: white;
           }
+        }
+        .project-link-container:after {
+          display:block;
+          padding: 5px 0px 5px 0px;
+          content: '';
+          border-bottom: solid 3px yellow;  
+          transform: scaleX(0);  
+          transition: transform 250ms ease-in-out;
+        }
+        .project-link-container:hover:after {
+          transform: scaleX(1);
+        }
+        .github-container {
+          a {
+            color: white;
+          }
+        }
+        .github-container:after {
+          display:block;
+          padding: 5px 0px 5px 0px;
+          content: '';
+          border-bottom: solid 3px yellow;  
+          transform: scaleX(0);  
+          transition: transform 250ms ease-in-out;
+        }
+        .github-container:hover:after { 
+          transform: scaleX(1);
         }
       }
     }
