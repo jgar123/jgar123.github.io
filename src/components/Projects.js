@@ -19,7 +19,7 @@ const Projects = () => {
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem praesentium dignissimos earum nisi provident facilis. Eligendi eius aut dicta odit exercitationem architecto optio, a vero quaerat ipsam saepe! Consequatur, aliquid? Test</p>
           <div className="project-child-skill">
             <div className="github-container">
-              <a href="" target="_blank">
+              <a href="https://github.com/jgar123/placeholder" target="_blank" rel="noopener noreferrer">
                 <div className="icon is-large">
                   <i className="skills-icon devicon-github-plain"></i>
                 </div>
@@ -45,7 +45,7 @@ const Projects = () => {
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem praesentium dignissimos earum nisi provident facilis. Eligendi eius aut dicta odit exercitationem architecto optio, a vero quaerat ipsam saepe! Consequatur, aliquid?</p>
           <div className="project-child-skill">
             <div className="github-container">
-              <a href="" target="_blank">
+              <a href="https://github.com/jgar123/artist_Flow" target="_blank" rel="noopener noreferrer">
                 <div className="icon is-large">
                   <i className="skills-icon devicon-github-plain"></i>
                 </div>
@@ -71,7 +71,7 @@ const Projects = () => {
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem praesentium dignissimos earum nisi provident facilis. Eligendi eius aut dicta odit exercitationem architecto optio, a vero quaerat ipsam saepe! Consequatur, aliquid?</p>
           <div className="project-child-skill">
             <div className="github-container">
-              <a href="" target="_blank">
+              <a href="https://github.com/jgar123/project-2" target="_blank" rel="noopener noreferrer">
                 <div className="icon is-large">
                   <i className="skills-icon devicon-github-plain"></i>
                 </div>
@@ -97,7 +97,7 @@ const Projects = () => {
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem praesentium dignissimos earum nisi provident facilis. Eligendi eius aut dicta odit exercitationem architecto optio, a vero quaerat ipsam saepe! Consequatur, aliquid?</p>
           <div className="project-child-skill">
             <div className="github-container">
-              <a href="" target="_blank">
+              <a href="https://github.com/jgar123/project-1" target="_blank" rel="noopener noreferrer">
                 <div className="icon is-large">
                   <i className="skills-icon devicon-github-plain"></i>
                 </div>
