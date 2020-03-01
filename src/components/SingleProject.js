@@ -42,7 +42,7 @@ const SingleProject = ({ slideIndex }) => {
         <div className="project-child-description">
           <p className="subtitle">artist_Flow</p>
           <div className="hozline"></div>
-          <p>Built a full stack application using ReactJS and Django. Artist_Flow allows users to search for and find new artists in a user friendly way and store new artists in a profile.</p>
+          <p>Built a full stack application using ReactJS and Django in a team of 3 over a period of a week. Artist_Flow allows users to search for and find new artists in a user friendly way and store favourited artists.</p>
           <div className="project-child-skill">
             <div className="github-container">
               <a href="https://github.com/jgar123/artist_Flow" target="_blank" rel="noopener noreferrer">
@@ -71,7 +71,7 @@ const SingleProject = ({ slideIndex }) => {
         <div className="project-child-description">
           <p className="subtitle">NewsMe</p>
           <div className="hozline"></div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem praesentium dignissimos earum nisi provident facilis. Eligendi eius aut dicta odit exercitationem architecto optio, a vero quaerat ipsam saepe! Consequatur, aliquid?</p>
+          <p>NewsMe is a frontend application built in a pair coding hackathon. It utilises the News API and openWether API to provide users with the most popular news stories via a keyword search. It also allows users to grab a snapshot of the weather or generate a 5 day forecast.</p>
           <div className="project-child-skill">
             <div className="github-container">
               <a href="https://github.com/jgar123/project-2" target="_blank" rel="noopener noreferrer">
