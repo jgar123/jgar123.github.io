@@ -13,7 +13,7 @@ const SingleProject = ({ slideIndex }) => {
         <div className="project-child-description">
           <p className="subtitle">Placeholder</p>
           <div className="hozline"></div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem praesentium dignissimos earum nisi provident facilis. Eligendi eius aut dicta odit exercitationem architecto optio, a vero quaerat ipsam saepe! Consequatur, aliquid? Test</p>
+          <p>Created a full stack application with a ReactJS frontend and NodeJS/MongoDB backend. The platform allows users to share locations (restaurants, pubs, coffee shops etc.) with friends or share locations publicly with all users on the platform.</p>
           <div className="project-child-skill">
             <div className="github-container">
               <a href="https://github.com/jgar123/placeholder" target="_blank" rel="noopener noreferrer">
@@ -42,7 +42,7 @@ const SingleProject = ({ slideIndex }) => {
         <div className="project-child-description">
           <p className="subtitle">artist_Flow</p>
           <div className="hozline"></div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem praesentium dignissimos earum nisi provident facilis. Eligendi eius aut dicta odit exercitationem architecto optio, a vero quaerat ipsam saepe! Consequatur, aliquid?</p>
+          <p>Built a full stack application using ReactJS and Django. Artist_Flow allows users to search for and find new artists in a user friendly way and store new artists in a profile.</p>
           <div className="project-child-skill">
             <div className="github-container">
               <a href="https://github.com/jgar123/artist_Flow" target="_blank" rel="noopener noreferrer">

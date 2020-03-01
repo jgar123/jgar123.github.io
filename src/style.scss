@@ -70,6 +70,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 0px;
     .previous {
       font-size: medium;
       margin-right: 20px;
@@ -89,6 +90,21 @@ body {
       color: dodgerblue;
       transform: scale(1.2);
       transition: all .1s ease;
+    }
+  }
+  .slide-number-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    p {
+      margin: 0px 5px 0px 5px;
+    }
+    .slide-number {
+      transform: scale(1.5);
+      font-weight: bold;
+      color: dodgerblue;
+      transition: all ease .1s;
     }
   }
   .project-child {
