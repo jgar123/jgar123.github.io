@@ -4,12 +4,16 @@ import placeholderImage from '../images/placeholder_screenshot.png'
 import artistFlowImage from '../images/artist_flow_screenshot.png'
 import newsmeImage from '../images/newsme_screenshot.png'
 import snakeImage from '../images/snake_screenshot.png'
+// import sudokuImage from '../images/sudoku-solver_screenshot.png'
+import sudoku1 from '../images/empty-sudoku.png'
+import sudoku2 from '../images/unsolved-sudoku.png'
+import sudoku3 from '../images/solved-sudoku.png'
 
 const SingleProject = ({ slideIndex }) => {
   return <div>
-    {slideIndex === 1 ? 
+    {slideIndex === 1 ?
       <div className="project-child">
-        <img src={placeholderImage} alt="placeholder screenshot"/>
+        <img src={placeholderImage} alt="placeholder screenshot" />
         <div className="project-child-description">
           <p className="subtitle">Placeholder</p>
           <div className="hozline"></div>
@@ -36,9 +40,42 @@ const SingleProject = ({ slideIndex }) => {
       </div>
       : null
     }
-    {slideIndex === 2 ? 
+    {slideIndex === 2 ?
       <div className="project-child">
-        <img src={artistFlowImage} alt="artist Flow screenshot"/>
+        <figure className="sudoku-image-container">
+          <img src={sudoku1} alt="placeholder screenshot" />
+          <img src={sudoku2} alt="placeholder screenshot" />
+          <img src={sudoku3} alt="placeholder screenshot" />
+        </figure>
+        <div className="project-child-description" id="sudoku-description">
+          <p className="subtitle">Sudoku Solver</p>
+          <div className="hozline"></div>
+          <p>Made a simple JavaScript, HTML and CSS sudoku solver that utilises 2 methods of puzzle solving for sudoku puzzles. This project was made with a mobile first approach.</p>
+          <div className="project-child-skill">
+            <div className="github-container">
+              <a href="https://github.com/jgar123/sudoku-solver" target="_blank" rel="noopener noreferrer">
+                <div className="icon is-large">
+                  <i className="skills-icon devicon-github-plain"></i>
+                </div>
+                <p className="is-size-7">github repo</p>
+              </a>
+            </div>
+            <div className="project-link-container">
+              <a href="" target="_blank">
+                <div className="icon is-large">
+                  <i className="fas fa-external-link-alt fa-lg"></i>
+                </div>
+                <p className="is-size-7">go to project</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      : null
+    }
+    {slideIndex === 3 ?
+      <div className="project-child">
+        <img src={artistFlowImage} alt="artist Flow screenshot" />
         <div className="project-child-description">
           <p className="subtitle">artist_Flow</p>
           <div className="hozline"></div>
@@ -65,9 +102,9 @@ const SingleProject = ({ slideIndex }) => {
       </div>
       : null
     }
-    {slideIndex === 3 ? 
-      <div className="project-child">     
-        <img src={newsmeImage} alt="news me screenshot"/>
+    {slideIndex === 4 ?
+      <div className="project-child">
+        <img src={newsmeImage} alt="news me screenshot" />
         <div className="project-child-description">
           <p className="subtitle">NewsMe</p>
           <div className="hozline"></div>
@@ -94,9 +131,9 @@ const SingleProject = ({ slideIndex }) => {
       </div>
       : null
     }
-    {slideIndex === 4 ? 
+    {slideIndex === 5 ?
       <div className="project-child">
-        <img src={snakeImage} alt="snake screenshot"/>
+        <img src={snakeImage} alt="snake screenshot" />
         <div className="project-child-description">
           <p className="subtitle">Snake!</p>
           <div className="hozline"></div>

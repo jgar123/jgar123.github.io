@@ -95,8 +95,7 @@ body {
   .slide-number-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
-    margin-left: 25px;
+    margin: 15px 0px 25px 25px;
     p {
       margin: 0px 10px 0px 10px;
     }
@@ -111,6 +110,15 @@ body {
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
+    .sudoku-image-container {
+      display: flex;
+      // width: 100%;
+      img {
+        width: 33%;
+        border: 0px solid white;
+        margin: 0px;
+      }
+    }
     img {
       border: 3px solid white;
       width: 50%;
@@ -211,14 +219,13 @@ body {
   #root {
     width: 100%;
   }
-  #nav-styling {
-    display: none;
-  }
 
   #projects {
     .project-child {
       flex-direction: column-reverse;
-
+      .sudoku-image-container {
+        flex-wrap: wrap;
+      }
       img {
         border: 3px solid white;
         width: 100%;
