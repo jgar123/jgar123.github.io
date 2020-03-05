@@ -1,4 +1,16 @@
 import React from 'react'
+import portfolioImage from '../images/portfolio-gif.gif'
+
+const style = {
+  height: '100vh',
+  width: '100vw',
+  margin: 0,
+  padding: 0,
+  backgroundImage: `url(${portfolioImage})`,
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover'
+}
 
 const Home = () => {
   return <section className="hero is-fullheight" id="home">
