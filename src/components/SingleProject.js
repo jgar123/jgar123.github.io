@@ -28,7 +28,7 @@ const SingleProject = ({ slideIndex }) => {
               </a>
             </div>
             <div className="project-link-container">
-              <a href="" target="_blank">
+              <a href="http://placeholder-ga.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                 <div className="icon is-large">
                   <i className="fas fa-external-link-alt fa-lg"></i>
                 </div>
@@ -43,9 +43,9 @@ const SingleProject = ({ slideIndex }) => {
     {slideIndex === 2 ?
       <div className="project-child">
         <figure className="sudoku-image-container">
-          <img src={sudoku1} alt="placeholder screenshot" />
-          <img src={sudoku2} alt="placeholder screenshot" />
-          <img src={sudoku3} alt="placeholder screenshot" />
+          <img src={sudoku1} alt="sudoku screenshot" />
+          <img src={sudoku2} alt="sudoku screenshot" />
+          <img src={sudoku3} alt="sudoku screenshot" />
         </figure>
         <div className="project-child-description" id="sudoku-description">
           <p className="subtitle">Sudoku Solver</p>
@@ -61,7 +61,7 @@ const SingleProject = ({ slideIndex }) => {
               </a>
             </div>
             <div className="project-link-container">
-              <a href="" target="_blank">
+              <a href="https://jgar123.github.io/sudoku-solver/" target="_blank" rel="noopener noreferrer">
                 <div className="icon is-large">
                   <i className="fas fa-external-link-alt fa-lg"></i>
                 </div>
@@ -119,7 +119,7 @@ const SingleProject = ({ slideIndex }) => {
               </a>
             </div>
             <div className="project-link-container">
-              <a href="" target="_blank">
+              <a href="https://jgar123.github.io/project-2/" target="_blank" rel="noopener noreferrer">
                 <div className="icon is-large">
                   <i className="fas fa-external-link-alt fa-lg"></i>
                 </div>
@@ -148,7 +148,7 @@ const SingleProject = ({ slideIndex }) => {
               </a>
             </div>
             <div className="project-link-container">
-              <a href="" target="_blank">
+              <a href="https://jgar123.github.io/project-1" target="_blank" rel="noopener noreferrer">
                 <div className="icon is-large">
                   <i className="fas fa-external-link-alt fa-lg"></i>
                 </div>
