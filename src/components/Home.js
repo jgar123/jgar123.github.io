@@ -19,7 +19,7 @@ const Home = () => {
         <p className="title is-size-1">
           Jonny Garius
         </p>
-        <p className="subtitle">Software Engineer | London</p>
+        <p className="subtitle">Software Engineer | <span id="football">Footballer</span> | <span id="rugby">Rugby...er</span></p>
       </div>
     </div>
   </section>

@@ -137,7 +137,7 @@ const SingleProject = ({ slideIndex }) => {
         <div className="project-child-description">
           <p className="subtitle">Snake!</p>
           <div className="hozline"></div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem praesentium dignissimos earum nisi provident facilis. Eligendi eius aut dicta odit exercitationem architecto optio, a vero quaerat ipsam saepe! Consequatur, aliquid?</p>
+          <p>A JavaScript implementation of the classic game snake.</p>
           <div className="project-child-skill">
             <div className="github-container">
               <a href="https://github.com/jgar123/project-1" target="_blank" rel="noopener noreferrer">

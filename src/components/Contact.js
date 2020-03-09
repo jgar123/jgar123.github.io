@@ -2,9 +2,9 @@ import React from 'react'
 
 const Contact = () => {
 
-  return <section className="section" id="contact">
+  return <section className="section has-background-light" id="contact">
     <div className="container has-text-centered">
-      <p className="title">Contact Info</p>
+      <p className="title has-text-grey-darker">Contact Info</p>
       <div className="columns is-centered">
         <div className="column is-one-quarter">
           <a href="https://www.linkedin.com/in/jonny-garius/" target="_blank" rel="noopener noreferrer">
