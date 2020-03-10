@@ -78,38 +78,27 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 0px;
-    .previous {
-      font-size: medium;
-      margin-right: 20px;
-      cursor: pointer;
-    }
-    .previous:hover {
-      color: dodgerblue;
-      transform: scale(1.2);
-      transition: all .1s ease;
-    }
-    .next {
-      font-size: medium;
-      margin-left: 20px;
-      cursor: pointer;
-    }
-    .next:hover {
-      color: dodgerblue;
-      transform: scale(1.2);
-      transition: all .1s ease;
-    }
   }
   .slide-number-container {
     display: flex;
     justify-content: center;
-    margin: 15px 0px 25px 25px;
+    margin: 15px 0px 25px 0px;
+    .icon:first-child {
+      margin-right: 20px;
+    }
+    .icon:last-child {
+      margin-left: 20px;
+    }
+    .icon:hover {
+      cursor: pointer;
+    }
     p {
       margin: 0px 10px 0px 10px;
     }
     .slide-number {
-      transform: scale(1.5);
+      transform: scale(1.2);
       font-weight: bold;
-      color: white;
+      color: dodgerblue;
       transition: all ease .1s;
     }
   }
