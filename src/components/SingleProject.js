@@ -9,6 +9,8 @@ import sudoku1 from '../images/empty-sudoku.png'
 import sudoku2 from '../images/unsolved-sudoku.png'
 import sudoku3 from '../images/solved-sudoku.png'
 
+// Decided to have this as a large component due to the differing number of images used between each project.
+
 const SingleProject = ({ slideIndex }) => {
   return <div>
     {slideIndex === 1 ?
@@ -17,7 +19,7 @@ const SingleProject = ({ slideIndex }) => {
         <div className="project-child-description">
           <p className="subtitle">Placeholder</p>
           <div className="hozline"></div>
-          <p>Created a full stack application with a ReactJS frontend and NodeJS/MongoDB backend. The platform allows users to share locations (restaurants, pubs, coffee shops etc.) with friends or share locations publicly with all users on the platform.</p>
+          <p>Created a full stack application with a ReactJS frontend and NodeJS/MongoDB backend. The platform allows users to share locations (restaurants, pubs, coffee shops etc.) with friends or share locations publicly with all users on the platform (hence the name placeholder!).</p>
           <div className="project-child-skill">
             <div className="github-container">
               <a href="https://github.com/jgar123/placeholder" target="_blank" rel="noopener noreferrer">
