@@ -92,7 +92,7 @@ const SingleProject = ({ slideIndex }) => {
               </a>
             </div>
             <div className="project-link-container">
-              <a href="" target="_blank">
+              <a href="https://artist-flow-ga.herokuapp.com/#/" target="_blank" rel="noopener noreferrer">
                 <div className="icon is-large">
                   <i className="fas fa-external-link-alt fa-lg"></i>
                 </div>
