@@ -1,4 +1,5 @@
 import React from 'react'
+import Skills from './Skills'
 
 const About = () => {
   return <section className="section has-background-light" id="about">
@@ -21,69 +22,8 @@ const About = () => {
           I’ve enjoyed every moment of the course and have discovered a true hunger and passion for the discipline. Building games, CRUD apps and API’s using both React and Python. Whether it be building features from scratch or optimising, I am highly motivated to step into the developer world and make a difference!
 
         </div>
-        <div className="column has-text-centered">
-          <p className="subtitle has-text-grey-darker">Skills</p>
-          <div className="columns is-centered">
-            <div className="column">
-              <div className="icon is-large">
-                <i className="skills-icon devicon-javascript-plain"></i>
-              </div>
-              <div className="icon is-large">
-                <i className="skills-icon devicon-python-plain"></i>
-              </div>
-              <div className="icon is-large">
-                <i className="skills-icon devicon-react-plain"></i>
-              </div>
-              <div className="icon is-large">
-                <i className="skills-icon devicon-mongodb-plain"></i>
-              </div>
-              <div className="icon is-large">
-                <i className="skills-icon devicon-express-original"></i>
-              </div>
-              <div className="icon is-large">
-                <i className="skills-icon devicon-django-plain"></i>
-              </div>
-              <div className="icon is-large">
-                <i className="skills-icon devicon-postgresql-plain"></i>
-              </div>
-              <div className="icon is-large">
-                <i className=" skills-icon devicon-nodejs-plain"></i>
-              </div>
-              <div className="icon is-large">
-                <i className="skills-icon devicon-html5-plain"></i>
-              </div>
-              <div className="icon is-large">
-                <i className="skills-icon devicon-css3-plain"></i>
-              </div>
-              <div className="icon is-large">
-                <i className="skills-icon devicon-babel-plain"></i>
-              </div>
-              <div className="icon is-large">
-                <i className="skills-icon devicon-git-plain"></i>
-              </div>
-              <div className="icon is-large">
-                <i className="skills-icon devicon-github-plain"></i>
-              </div>
-              <div className="icon is-large">
-                <i className="skills-icon devicon-heroku-plain"></i>
-              </div>
-              <div className="icon is-large">
-                <i className="skills-icon devicon-mocha-plain"></i>
-              </div>
-              <div className="icon is-large">
-                <i className="skills-icon devicon-sass-plain"></i>
-              </div>
-              <div className="icon is-large">
-                <i className="skills-icon devicon-webpack-plain"></i>
-              </div>
-              <div className="icon is-large">
-                <i className="skills-icon fab fa-3x fa-slack"></i>
-              </div>
-              <div className="icon is-large">
-                <i className="skills-icon fab fa-3x fa-r-project"></i></div>
-            </div>
-          </div>
-        </div>
+    
+        <Skills />
       </div>
     </div>
   </section>

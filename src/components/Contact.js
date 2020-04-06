@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Contact = () => {
-
   return <section className="section has-background-light" id="contact">
     <div className="container has-text-centered">
       <p className="title has-text-grey-darker">Contact Info</p>
