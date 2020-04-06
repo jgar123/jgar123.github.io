@@ -9,7 +9,7 @@ html {
 html, body {
   height: 100%;
   font-family: 'Montserrat', sans-serif;
-  background-color: hsl(0, 0%, 21%);
+  // background-color: hsl(0, 0%, 21%);
   color: white;
 }
 
@@ -49,8 +49,12 @@ body {
 // Home page
 
 // #home {
-
+//   background-color: hsl(0, 0%, 21%);
 // }
+
+canvas {
+  background-color: hsl(0, 0%, 21%);
+}
 
 
 // About page
@@ -73,6 +77,7 @@ body {
 // Projects page
  
 #projects {
+  background-color: hsl(0, 0%, 21%);
   .title {
     display: flex;
     align-items: center;

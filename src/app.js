@@ -11,13 +11,13 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 
 const App = () => {
-  return <div>
+  return <>
     <Navbar />
     <Home />
     <About />
     <Projects />
     <Contact />
-  </div>
+  </>
 }
 
 ReactDOM.render(
