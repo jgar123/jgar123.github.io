@@ -48,9 +48,21 @@ body {
 
 // Home page
 
-// #home {
-//   background-color: hsl(0, 0%, 21%);
-// }
+#home {
+  p {
+    opacity: 0;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+  }
+}
+
+// bubbles bg
 
 canvas {
   background-color: hsl(0, 0%, 21%);
@@ -111,6 +123,14 @@ canvas {
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
+    opacity: 0;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInLeft;
+    -webkit-animation-name: fadeInLeft;
     .sudoku-image-container {
       display: flex;
       // width: 100%;
@@ -210,6 +230,50 @@ canvas {
 @-webkit-keyframes aitf {
 0% { background-position: 0% 50%; }
 100% { background-position: 100% 50%; }
+}
+
+@keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+      transform: translate3d(-30px,0,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInLeft {
+  from {
+    transform: translate3d(-30px,0,0)
+  }
+
+  to {
+    transform: translate3d(0,0,0);
+    opacity: 1
+  }
 }
 
 // MOBILE DEVICES
