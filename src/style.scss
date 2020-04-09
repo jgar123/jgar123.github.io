@@ -49,6 +49,12 @@ body {
 // Home page
 
 #home {
+  height: 100%;
+  .hero-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   p {
     opacity: 0;
     animation-delay: 1s;
@@ -65,10 +71,9 @@ body {
 // bubbles bg
 
 canvas {
+  height: 100%;
   background-color: hsl(0, 0%, 21%);
-  height: 100vh;
 }
-
 
 // About page
 

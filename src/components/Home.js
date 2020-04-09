@@ -35,8 +35,7 @@ const Home = () => {
       }
     })
   }
-  return <>
-  <section className="hero is-fullheight" id="home">
+  return <section className="hero" id="home">
     <div className="hero-body">
       <div className="container has-text-centered" id="home-title">
         <p className="title is-size-1">
@@ -47,7 +46,7 @@ const Home = () => {
     </div>
     <ParticlesBg type="custom" config={config} bg={true} />
   </section>
-  </>
+
 }
 
 export default Home
