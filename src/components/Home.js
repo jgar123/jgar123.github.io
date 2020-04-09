@@ -45,8 +45,8 @@ const Home = () => {
         <p className="subtitle">Software Engineer | <span id="football">Footballer</span> | <span id="rugby">Rugby Enthusiast</span></p>
       </div>
     </div>
+    <ParticlesBg type="custom" config={config} bg={true} />
   </section>
-  <ParticlesBg type="custom" config={config} bg={true} />
   </>
 }
 
