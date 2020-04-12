@@ -301,6 +301,8 @@ canvas {
       flex-direction: column-reverse;
       .sudoku-image-container {
         flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
       }
       img {
         border: 3px solid white;
