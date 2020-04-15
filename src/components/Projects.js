@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Controller, Scene } from 'react-scrollmagic'
 
 import SingleProject from './SingleProject'
 
@@ -28,22 +29,29 @@ const Projects = () => {
 
   return <section className="section" id="projects">
     <div className="container has-text-centered">
-      <div className="title">
-        Projects
-      </div>
-      <div className="slide-number-container">
-        <div className="icon" onClick={handlePreviousClick}>
-          <i className="fas fa-chevron-left"></i>
-        </div>
-        {slideArray.map((element, i) => {
-          return <div key={i}>
-            {slideIndex === element ? <p className="slide-number" id={i}>{element}</p> : <p id={i}>{element}</p>}
+      <Controller>
+        <Scene triggerHook={1} classToggle={'fadeInRight'}>
+          <div className="title">
+            Projects
           </div>
-        })}
-        <div className="icon" onClick={handleNextClick}>
-          <i className="fas fa-chevron-right"></i>
-        </div>
-      </div>
+        </Scene>
+        <Scene triggerHook={1} classToggle={'fadeInLeft'}>
+          <div className="slide-number-container">
+            <div className="icon" onClick={handlePreviousClick}>
+              <i className="fas fa-chevron-left"></i>
+            </div>
+            {slideArray.map((element, i) => {
+              return <div key={i}>
+                {slideIndex === element ? <p className="slide-number" id={i}>{element}</p> : <p id={i}>{element}</p>}
+              </div>
+            })}
+            <div className="icon" onClick={handleNextClick}>
+              <i className="fas fa-chevron-right"></i>
+            </div>
+          </div>
+        </Scene>
+      </Controller>
+
       <SingleProject slideIndex={slideIndex} />
     </div>
   </section>

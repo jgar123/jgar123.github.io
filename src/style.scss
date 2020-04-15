@@ -135,8 +135,8 @@ canvas {
     -webkit-animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     opacity: 0;
-    animation-name: fadeInLeft;
-    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInRight;
+    -webkit-animation-name: fadeInRight;
     .sudoku-image-container {
       display: flex;
       // width: 100%;
@@ -228,6 +228,55 @@ canvas {
   }
 }
 
+.fadeInUp {
+  opacity: 0;
+  animation-delay: 0.4s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+
+.fadeInDown {
+  opacity: 0;
+  animation-delay: 0.4s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  opacity: 0;
+  animation-name: fadeInDown;
+  -webkit-animation-name: fadeInDown;
+}
+
+.fadeInLeft {
+  opacity: 0;
+  animation-delay: 0.4s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  opacity: 0;
+  animation-name: fadeInLeft;
+  -webkit-animation-name: fadeInLeft;
+}
+
+.fadeInRight {
+  opacity: 0;
+  animation-delay: 0.4s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  opacity: 0;
+  animation-name: fadeInRight;
+  -webkit-animation-name: fadeInRight;
+}
+
+
 @keyframes aitf {
   0% { background-position: 0% 50%; }
   100% { background-position: 100% 50%; }
@@ -279,6 +328,50 @@ canvas {
   to {
     transform: translate3d(0,0,0);
     opacity: 1
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+      transform: translate3d(30px,0,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    transform: translate3d(30px,0,0)
+  }
+
+  to {
+    transform: translate3d(0,0,0);
+    opacity: 1
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+      transform: translate3d(0,-40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+      transform: translate3d(0,-40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
   }
 }
 
