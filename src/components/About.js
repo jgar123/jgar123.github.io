@@ -6,7 +6,7 @@ const About = () => {
   return <section className="section has-background-light" id="about">
     <div className="container has-text-centered">
       <Controller>
-        <Scene triggerHook={1} classToggle={'fadeInDown'}>
+        <Scene triggerHook={1} classToggle={'fadeInLeft'}>
           <p className="title has-text-grey-darker really-specific-class">About</p>
         </Scene>
         <Scene triggerHook={1} classToggle={'fadeInRight'}>
