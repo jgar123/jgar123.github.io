@@ -1,6 +1,5 @@
 import React from 'react'
 import ParticlesBg from 'particles-bg'
-// import portfolioImage from '../images/portfolio-gif.gif'
 
 const Home = () => {
   let config = {
