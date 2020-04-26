@@ -9,7 +9,7 @@ html {
 html, body {
   height: 100%;
   font-family: 'Montserrat', sans-serif;
-  // background-color: hsl(0, 0%, 21%);
+  background-color: hsl(0, 0%, 21%);
   color: white;
 }
 
@@ -39,6 +39,7 @@ body {
   justify-content: center;
   a {
     color: white;
+    border-bottom: 3px solid hsl(0, 0%, 21%);
   }
   a:hover {
     background-color: transparent;
