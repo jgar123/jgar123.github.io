@@ -20,8 +20,11 @@ const ParticlesComponent = () => (
               enable: true
             }
           },
+          color: {
+            value: '#62fc03'
+          },
           size: {
-            value: 3,
+            value: 8,
             random: true
           },
           move: {
