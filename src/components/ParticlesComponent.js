@@ -17,7 +17,7 @@ const ParticlesComponent = () => (
           number: {
             value: 160,
             density: {
-              enable: false
+              enable: true
             }
           },
           size: {
@@ -36,6 +36,11 @@ const ParticlesComponent = () => (
             onhover: {
               enable: true,
               mode: 'repulse'
+            },
+            onresize: {
+              enable: true,
+              density_auto: true,
+              density_area: 400
             }
           },
           modes: {

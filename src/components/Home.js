@@ -3,7 +3,7 @@ import ParticlesComponent from './ParticlesComponent'
 
 const Home = () => {
   return <>
-    {/* <ParticlesComponent /> */}
+    <ParticlesComponent />
     <section className="hero" id="home">
       <div className="hero-body">
         <div className="container has-text-centered" id="home-title">

@@ -71,10 +71,15 @@ body {
 
 // bubbles bg
 
-canvas {
+#tsparticles {
   height: 100%;
-  background-color: hsl(0, 0%, 21%);
+  width: 100%;
 }
+
+// canvas {
+//   height: 100%;
+//   background-color: hsl(0, 0%, 21%);
+// }
 
 // About page
 
