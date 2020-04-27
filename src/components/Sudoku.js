@@ -1,16 +1,10 @@
 import React from 'react'
 
-import sudoku1 from '../images/empty-sudoku.png'
-import sudoku2 from '../images/unsolved-sudoku.png'
-import sudoku3 from '../images/solved-sudoku.png'
+import sudokuImage from '../images/sudoku-screenshot.png'
 
 const Sudoku = () => (
   <div className="project-child">
-    <figure className="sudoku-image-container">
-      <img src={sudoku1} alt="sudoku screenshot" />
-      <img src={sudoku2} alt="sudoku screenshot" />
-      <img src={sudoku3} alt="sudoku screenshot" />
-    </figure>
+    <img src={sudokuImage} />
     <div className="project-child-description" id="sudoku-description">
       <p className="subtitle">Sudoku Solver</p>
       <div className="hozline"></div>

@@ -1,9 +1,9 @@
 import React from 'react'
-import placeholderImage from '../images/placeholder_screenshot.png'
+import placeholderDesktop from '../images/placeholder_screenshot.png'
 
 const Placeholder = () => (
   <div className="project-child">
-    <img src={placeholderImage} alt="placeholder screenshot" />
+    <img src={placeholderDesktop} alt="placeholder screenshot" />
     <div className="project-child-description">
       <p className="subtitle">Placeholder</p>
       <div className="hozline"></div>
