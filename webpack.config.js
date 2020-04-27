@@ -1,6 +1,7 @@
 const path = require('path')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const CompressionPlugin = require('compression-webpack-plugin')
 
 module.exports = {
   entry: './src/app.js',
@@ -31,6 +32,9 @@ module.exports = {
     historyApiFallback: true
   },
   plugins: [
+    new CompressionPlugin({
+      algorithm: 'brotliCompress'
+    }),
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
       template: 'src/index.html',
