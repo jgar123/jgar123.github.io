@@ -5,7 +5,7 @@ const NewsMe = () => (
   <div className="project-child">
     <img src={newsmeImage} alt="news me screenshot" />
     <div className="project-child-description">
-      <p className="subtitle">NewsMe</p>
+      <p className="title" id="newsme-title">NewsMe</p>
       <div className="hozline"></div>
       <p>NewsMe is a frontend application built in a pair coding hackathon. It utilises the News API and openWether API to provide users with the most popular news stories via a keyword search. It also allows users to grab a snapshot of the weather or generate a 5 day forecast.</p>
       <div className="project-child-skill">

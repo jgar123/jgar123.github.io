@@ -151,23 +151,6 @@ body {
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
-    .sudoku-image-container {
-      display: flex;
-      // width: 100%;
-      img {
-        width: 30%;
-        border: 0px solid white;
-        margin: 0px;
-        opacity: 0;
-        animation-duration: 1s;
-        animation-fill-mode: both;
-        -webkit-animation-duration: 1s;
-        -webkit-animation-fill-mode: both;
-        opacity: 0;
-        animation-name: fadeInLeft;
-        -webkit-animation-name: fadeInLeft;
-      }
-    }
     img {
       // border: 3px solid white;
       width: 50%;
@@ -247,6 +230,23 @@ body {
     }
   }
 }
+
+#placeholder-title {
+  font-family: 'Poiret One', cursive;
+}
+#artistflow-title {
+  font-family: 'Cabin Sketch', cursive;
+}
+#newsme-title {
+  font-family: 'Lobster', cursive;
+}
+#snake-title {
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 5px 5px 1px red, 10px 10px 1px blue;
+  color: white
+}
+
+// Contact details section
 
 #contact {
   a {
@@ -430,13 +430,7 @@ body {
   #projects {
     .project-child {
       flex-direction: column-reverse;
-      .sudoku-image-container {
-        flex-wrap: wrap;
-        display: flex;
-        justify-content: center;
-      }
       img {
-        // border: 3px solid white;
         width: 100%;
       }
     }

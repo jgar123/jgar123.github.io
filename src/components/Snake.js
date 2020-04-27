@@ -5,7 +5,7 @@ const Snake = () => (
   <div className="project-child">
     <img src={snakeImage} alt="snake screenshot" />
     <div className="project-child-description">
-      <p className="subtitle">Snake!</p>
+      <p className="title" id="snake-title">SNAKE</p>
       <div className="hozline"></div>
       <p>A JavaScript implementation of the classic game snake.</p>
       <div className="project-child-skill">

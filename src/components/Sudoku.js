@@ -5,8 +5,8 @@ import sudokuImage from '../images/sudoku-collage.png'
 const Sudoku = () => (
   <div className="project-child">
     <img src={sudokuImage} />
-    <div className="project-child-description" id="sudoku-description">
-      <p className="subtitle">Sudoku Solver</p>
+    <div className="project-child-description">
+      <p className="title is-family-sans-serif">SUDOKU SOLVER</p>
       <div className="hozline"></div>
       <p>Made a simple JavaScript, HTML and CSS sudoku solver that utilises 2 methods of puzzle solving for sudoku puzzles. This project was made with a mobile first approach.</p>
       <div className="project-child-skill">

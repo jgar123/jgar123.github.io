@@ -6,7 +6,7 @@ const ArtistFlow = () => (
   <div className="project-child">
     <img src={artistFlowImage} alt="artist Flow screenshot" />
     <div className="project-child-description">
-      <p className="subtitle">artist_Flow</p>
+      <p className="title" id="artistflow-title">artist_Flow</p>
       <div className="hozline"></div>
       <p>Built a full stack application using ReactJS and Django in a team of 3 over a period of a week. Artist_Flow allows users to search for and find new artists in a user friendly way and store favourited artists.</p>
       <div className="project-child-skill">

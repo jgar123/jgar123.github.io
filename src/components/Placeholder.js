@@ -5,7 +5,7 @@ const Placeholder = () => (
   <div className="project-child">
     <img src={placeholderDesktop} alt="placeholder screenshot" />
     <div className="project-child-description">
-      <p className="subtitle">Placeholder</p>
+      <p className="title" id="placeholder-title">[ PLACEHOLDER ]</p>
       <div className="hozline"></div>
       <p>Created a full stack application with a ReactJS frontend and NodeJS/MongoDB backend. The platform allows users to share locations (restaurants, pubs, coffee shops etc.) with friends or share locations publicly with all users on the platform (hence the name placeholder!).</p>
       <div className="project-child-skill">
