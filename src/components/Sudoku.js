@@ -1,6 +1,6 @@
 import React from 'react'
 
-import sudokuImage from '../images/sudoku-screenshot.png'
+import sudokuImage from '../images/sudoku-collage.png'
 
 const Sudoku = () => (
   <div className="project-child">

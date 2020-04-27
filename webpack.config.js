@@ -11,6 +11,7 @@ module.exports = {
   },
   module: {
     rules: [
+      { test: /\.(jpg|png|gif|svg)$/, loader: 'image-webpack-loader', enforce: 'pre' },
       { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
       { test: /\.css$/, loader: ['style-loader', 'css-loader'] },
       { test: /\.s(a|c)ss$/, loader: ['style-loader', 'css-loader', 'sass-loader'] },

@@ -1,5 +1,5 @@
 import React from 'react'
-import placeholderDesktop from '../images/placeholder_screenshot.png'
+import placeholderDesktop from '../images/placeholder-collage.png'
 
 const Placeholder = () => (
   <div className="project-child">

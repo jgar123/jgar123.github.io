@@ -1,5 +1,5 @@
 import React from 'react'
-import snakeImage from '../images/snake_screenshot.png'
+import snakeImage from '../images/snake-collage.png'
 
 const Snake = () => (
   <div className="project-child">

@@ -1,5 +1,5 @@
 import React from 'react'
-import newsmeImage from '../images/newsme_screenshot.png'
+import newsmeImage from '../images/newsme-collage.png'
 
 const NewsMe = () => (
   <div className="project-child">
