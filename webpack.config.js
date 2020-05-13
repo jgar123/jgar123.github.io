@@ -2,6 +2,8 @@ const path = require('path')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CompressionPlugin = require('compression-webpack-plugin')
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
+
 
 module.exports = {
   entry: './src/app.js',
@@ -18,7 +20,7 @@ module.exports = {
       { test: /\.s(a|c)ss$/, loader: ['style-loader', 'css-loader', 'sass-loader'] },
       {
         test: /\.(jpg|png|gif)/, use: [{
-          loader: 'url-loader'
+          loader: 'file-loader'
         }]
       }
     ]
@@ -32,6 +34,7 @@ module.exports = {
     historyApiFallback: true
   },
   plugins: [
+    // new BundleAnalyzerPlugin(),
     new CompressionPlugin({
       algorithm: 'brotliCompress'
     }),

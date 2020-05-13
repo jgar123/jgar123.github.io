@@ -118,6 +118,7 @@ body {
  
 #projects {
   background-color: royalblue;
+  min-height: 85vh;
   .title {
     display: flex;
     align-items: center;
@@ -156,6 +157,7 @@ body {
       width: 50%;
       margin-right: 5%;
       opacity: 0;
+      animation-delay: 0.1s;
       animation-duration: 1s;
       animation-fill-mode: both;
       -webkit-animation-duration: 1s;
@@ -170,6 +172,7 @@ body {
       align-items: center;
       justify-content: space-evenly;
       opacity: 0;
+      animation-delay: 0.1s;
       animation-duration: 1s;
       animation-fill-mode: both;
       -webkit-animation-duration: 1s;
