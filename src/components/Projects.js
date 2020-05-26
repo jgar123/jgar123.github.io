@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import SingleProject from './SingleProject'
 
-const slideArray = [1, 2, 3, 4, 5]
+const slideArray = [1, 2, 3, 4, 5, 6]
 
 const Projects = () => {
 
@@ -11,7 +11,7 @@ const Projects = () => {
   function handlePreviousClick() {
     let tempValue = slideIndex
     if (tempValue === 1) {
-      setSlideIndex(5)
+      setSlideIndex(6)
     } else {
       setSlideIndex(tempValue -= 1)
     }
@@ -19,7 +19,7 @@ const Projects = () => {
 
   function handleNextClick() {
     let tempValue = slideIndex
-    if (tempValue === 5) {
+    if (tempValue === 6) {
       setSlideIndex(1)
     } else {
       setSlideIndex(tempValue += 1)

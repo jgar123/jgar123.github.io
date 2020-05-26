@@ -4,6 +4,7 @@ import Placeholder from './Placeholder'
 import Sudoku from './Sudoku'
 import ArtistFlow from './Artist_Flow'
 import NewsMe from './NewsMe'
+import Pacman from './Pacman'
 import Snake from './Snake'
 
 const SingleProject = ({ slideIndex }) => {
@@ -26,6 +27,10 @@ const SingleProject = ({ slideIndex }) => {
       : null
     }
     {slideIndex === 5 ?
+      <Pacman />
+      : null
+    }
+    {slideIndex === 6 ?
       <Snake />
       : null
     }
