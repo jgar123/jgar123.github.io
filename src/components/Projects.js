@@ -28,7 +28,7 @@ const Projects = () => {
 
   return <section className="section" id="projects">
     <div className="container has-text-centered">
-      <div className="title">Projects</div>
+      <div className="title">Personal projects</div>
       <div className="slide-number-container">
         <div className="icon" onClick={handlePreviousClick}>
           <i className="fas fa-chevron-left"></i>
